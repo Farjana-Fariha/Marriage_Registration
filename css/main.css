@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=El+Messiri:wght@400;600;700&display=swap');
+.heading h2{
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: url('../img/484cb019d737393b4f8be03da93f0319.jpg');
+	color: transparent;
+    font-weight: 800;
+    font-size: 45px;
+}
+.heading {
+   border: 3px dashed brown;
+}
+.menu {
+	background: rgb(223,207,23);
+background: linear-gradient(90deg, rgba(223,207,23,1) 27%, rgba(238,199,140,1) 38%, rgba(255,71,170,1) 86%);
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 23px;
+    text-align: center;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 17px 0;
+    display: block;
+    color: #fff;
+  }
+  .menu ul {
+    text-align: right;
+  }
+
+
+.container.mb-100{
+      margin-bottom: 100px;
+  }
+  .card_bg {
+	background: #ddd;
+	min-height: 300px;
+}
+.declimer-text p {
+	font-size: 16px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 7px;
+}
+.btn.btn-primary.back_button_style {
+	padding: 10px 57px;
+	margin-top: 21px;
+	margin-bottom: 30px;
+background: linear-gradient(90deg, rgba(223,207,23,1) 27%, rgba(238,199,140,1) 38%, rgba(255,71,170,1) 86%);
+
+}
+select {
+	display: block;
+	width: 100%;
+	padding: 8px;
+}
+.copyright_area {
+	padding: 11px 0;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	padding-bottom: 1px;
+}
+.copyright_area{
+    background-image: url('../img/footer.jpg');
+    background-size: cover;
+}
